@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# x-metodo clipboard
+
+echo "begin: " `pbpaste`
+pbpaste | xmetodo | pbcopy
+echo "end: " `pbpaste`
+
